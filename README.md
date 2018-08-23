@@ -10,6 +10,10 @@ But only the operation ID and variables are sent over the wire:
 
 <img width="926" alt="image" src="https://user-images.githubusercontent.com/2231765/44499396-a96f3700-a651-11e8-8702-cc27a65a658d.png">
 
+You can see the persisted queries in the GraphQL-Pro dashboard:
+
+<img width="1022" alt="image" src="https://user-images.githubusercontent.com/2231765/44499895-0bc93700-a654-11e8-8086-5c0e38838091.png">
+
 ## Setup & Dev
 
 - Clone the repo: `git clone git@github.com:rmosolgo/graphql-pro-operation-store-example.git && cd graphql-pro-operation-store-example`
