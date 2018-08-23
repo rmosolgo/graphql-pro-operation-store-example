@@ -1,0 +1,26 @@
+<h1>Operation Store Demo</h1>
+<p>Click to run an operation from the server</p>
+
+<div class="operations">
+  <div class="operation">
+    <button onClick="runOperation('ReadAll')">
+      Read All
+    </button>
+    <div class="operation-result">
+      <p id="operation-ReadAll">Click to run</p>
+    </div>
+  </div>
+  <div class="operation">
+    <button onClick="runOperation('AddPost', {handle: getValue('#addPostHandle'), content: getValue('#addPostContent')})">
+      Add Post
+    </button>
+    <select id="addPostHandle">
+      <option>dhh</option>
+      <option>antirez</option>
+    </select>
+    <input id="addPostContent" type="text"/>
+    <div class="operation-result">
+      <p id="operation-AddPost">Click to run</p>
+    </div>
+  </div>
+</div>

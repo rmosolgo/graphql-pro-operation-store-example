@@ -1,0 +1,8 @@
+query ReadAll {
+  people {
+    handle
+    posts {
+      content
+    }
+  }
+}

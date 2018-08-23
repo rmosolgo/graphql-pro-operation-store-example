@@ -1,0 +1,10 @@
+mutation AddPost($handle: String!, $content: String!) {
+  addPost(handle: $handle, content: $content) {
+    post {
+      person {
+        handle
+      }
+      content
+    }
+  }
+}

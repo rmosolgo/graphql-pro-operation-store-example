@@ -1,0 +1,14 @@
+{
+  "name": "operation-store-demo",
+  "private": true,
+  "dependencies": {
+    "@rails/webpacker": "3.5",
+    "graphql-ruby-client": "^1.4.0"
+  },
+  "scripts": {
+    "sync-graphql": "yarn run graphql-ruby-client sync --url=http://localhost:3000/graphql/sync --outfile=app/javascript/packs/OperationStoreClient.js --path=app/graphql/operations --client=demo-client --secret=74ec903e9ae9ac03a6f7c7c8cb2b32832af6221caa4623c5bd22f72580f233ed"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "2.11.2"
+  }
+}
