@@ -12,8 +12,8 @@ But only the operation ID and variables are sent over the wire:
 
 ## Setup & Dev
 
-- Clone the repo
-- Configure your graphql-pro credentials
+- Clone the repo: `git clone git@github.com:rmosolgo/graphql-pro-operation-store-example.git && cd graphql-pro-operation-store-example`
+- Configure your graphql-pro credentials: `bundle config gems.graphql.pro your-credential-here`
 - Install dependencies: `bundle install && yarn install`
 - Prep the database: `bundle exec rake db:migrate db:seed`
 - Sync the operations: `yarn run sync-graphql`
